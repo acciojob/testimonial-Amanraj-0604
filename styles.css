@@ -1,24 +1,25 @@
-
+/* Main container */
 .testimonials-container {
   background-color: #f5f5f5;
   padding: 20px;
 }
 
-.paragraph {
+/* Individual testimonial box */
+.testimonial {
   background-color: #ffffff;
   padding: 10px;
   border: 1px solid #ddd;
   margin-bottom: 10px;
 }
 
-.paragraph p:first-child {
+/* Testimonial text */
+.testimonial p:first-child {
   font-size: 14px;
-  margin: 0;
 }
 
-.paragraph p:last-child {
+/* Author name – line ke niche, italic, right aligned */
+.author {
   font-style: italic;
   text-align: right;
   margin-top: 5px;
-  margin-bottom: 0;
 }
